@@ -1,0 +1,102 @@
+div.row{
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+div.row1{
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+div.box{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+    color: blue;
+}
+button{
+    margin-right: 30px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+button.reset{
+    background-color: rgb(207, 59, 13);
+    color: wheat;
+    cursor: pointer;
+}
+input[type="text"]{
+    padding: 10px;
+    border-radius: 5px;
+}
+input[type="password"]
+{
+    padding: 10px;
+    border-radius: 5px;
+}
+.btn-row{
+    margin-top: 20px;
+}
+.centered {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .top{
+    top:17%;
+    margin-top:0%;
+}
+  .error{
+    background-color: red;
+    color: antiquewhite;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+div.reset{
+    background-color:blue;
+    color: antiquewhite;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.successmsg{
+    background-color:green;
+    color: antiquewhite;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.link:hover,.link:focus{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+body,html
+{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:0;
+    top:0;
+    background-image: url("https://cdn.searchenginejournal.com/wp-content/uploads/2019/01/10-Reasons-Why-Social-Media-Is-Important-to-Your-Company.webp");
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

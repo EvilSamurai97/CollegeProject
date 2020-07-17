@@ -1,0 +1,110 @@
+h1{
+    background: blue;
+    color: white;
+    text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: blue;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: white;
+  color: blue;
+  cursor: pointer;
+}
+
+.active {
+  background-color: lightblue;
+  color: white;
+}  body,html
+{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:0;
+    top:0;
+    background-image: url("https://rvtechsolutions.com/wp-content/uploads/2016/09/Social-Media-Marketing.jpg");
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y;
+    background-attachment: scroll;
+}
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 15%;
+  padding: 10px;
+  background: blue;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: white;
+  color: blue;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+button{
+  margin-right: 40px;
+  margin-left: 20px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: grey;
+  text-align:center
+}
+button:hover{
+  color:blue;
+  background-color: white;
+  cursor: pointer;
+}
+div.box{
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 30px;
+  color: blue; 
+}

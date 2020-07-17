@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <body>
+        <h1>Welcome to Social App</h1>
+        <ul class="UL">
+                <li><a class="link" (click)="Home()"><i class="fa fa-fw fa-home"></i>Home</a></li>
+                <li><a class="link" (click)="Create()"><i class="fa fa-fw fa-plus"></i>Create</a></li>
+                <li><a class="link" (click)="View()"><i class="fa fa-fw fa-eye"></i>View</a></li>
+                <li><a class="link" (click)="Friend()"><i class="fa fa-fw fa-users"></i>Add friend</a></li>
+                <li><a class="link" (click)="Profile()" class="active"><i class="fa fa-user-circle-o"></i>View Profile</a></li>
+                <li><a class="link" (click)="About()"><i class="fa fa-fw fa-address-card"></i>About</a></li>
+                <li><a class="link" (click)="Contact()"><i class="fa fa-fw fa-id-badge"></i>Contact Us</a></li>
+                <li><a class="link" (click)="Logout()"><i class="fa fa-fw fa-power-off"></i>Logout</a></li>
+        </ul>
+        <div class="box">
+            <div>
+            <img src="https://pecb.com/conferences/wp-content/uploads/2017/10/no-profile-picture.jpg">   
+            </div>
+            <hr class="solid">
+            <h2 style="color: black; text-align: center;">Sayantan Halder</h2>
+            <h4 style="color: black; text-align: center;">"We shall overcome all the obstacles one day"</h4>
+            <hr class="solid">
+            <div>
+                <ul class="U"> 
+                    <li class="L">Lives in <b>Kolkata</b></li>
+                  </ul>
+            </div>
+            <br/>
+            <div>
+                <button class="ad" type="submit"><i class="fa fa-plus"> Add your details</i></button>
+                <button class="del" type="submit"><i class="fa fa-pencil"> Edit your details</i></button>
+                <button class="set" type="submit"><i class="fa fa-ellipsis-v"></i></button>
+            </div>
+            <hr class="solid">
+            <h4 style="color: black; text-align: left;"><b>Friends:</b> 0 Friend</h4>
+            <hr class="solid">
+        </div>
+    </body>
+</html>

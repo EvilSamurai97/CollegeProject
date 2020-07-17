@@ -1,0 +1,111 @@
+h1{
+    background: blue;
+    color: white;
+    text-align: center;
+  }
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: blue;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  }
+  
+  li {
+  float: left;
+  border-right:1px solid #bbb;
+  }
+  
+  li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+  
+  li a:hover {
+  background-color: white;
+  color: blue;
+  cursor: pointer;
+  }
+  
+  .active {
+  background-color: lightblue;
+  color: white;
+  } 
+  body,html{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:0;
+    top:0;
+    background-image: url("https://rvtechsolutions.com/wp-content/uploads/2016/09/Social-Media-Marketing.jpg");
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y;
+    background-attachment: scroll;
+  }
+  .avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  div.box{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 30px;
+    color: blue; 
+  }
+  img{
+    width:10%;
+    height: 10%;
+  }
+  div.a{
+    text-align: left;
+    margin-left: 15%;
+    margin-top: -5%;
+  }
+  button.ad{
+    margin-right: 30px;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+  }
+  button.ad:hover{
+    text-decoration: underline;
+    color: lightblue;
+    background-color: gray;
+    cursor: pointer;
+  }
+  button.del{
+    margin-right: 30px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+  }
+  button.del:hover{
+    text-decoration: underline;
+    color: peru;
+    background-color: maroon;
+    cursor: pointer;
+  }
+  u.un{
+    width: 100%;
+  }
+  hr.solid {
+    border-top: 1px solid #bbb;
+  }
